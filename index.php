@@ -1,27 +1,19 @@
 <?php
 
-/*----------------------------------------------------------------------------------------
- * Copyright (c) Microsoft Corporation. All rights reserved.
- * Licensed under the MIT License. See LICENSE in the project root for license information.
- *---------------------------------------------------------------------------------------*/
-
-function sayHello($name) {
-	echo "Hello $name!";
-}
+// Obtém informações do processo PHP que atende esta requisição.
+$versaoPhp = PHP_VERSION;
+$dataHoraServidor = date('d/m/Y H:i:s');
 
 ?>
-
-<html>
-	<head>
-		<title>Visual Studio Code Remote :: PHP</title>
-	</head>
-	<body>
-		<?php 
-		
-		sayHello('remote world');
-			
-		phpinfo(); 
-			
-		?>
-	</body>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Ambiente PHP</title>
+</head>
+<body>
+    <h1>Ambiente PHP funcionando</h1>
+    <p>Versão do PHP: <?= $versaoPhp ?></p>
+    <p>Data e hora do servidor: <?= $dataHoraServidor ?></p>
+</body>
 </html>
