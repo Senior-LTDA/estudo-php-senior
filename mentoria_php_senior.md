@@ -67,7 +67,7 @@ Regras de conduta:
 
 | Fase | Tema | Status |
 |---|---|---|
-| 1 | Fundamentos da Web, Ferramentas e Ambiente | [ ] |
+| 1 | Fundamentos da Web, Ferramentas e Ambiente | [x] |
 | 2 | PHP — Fundamentos da Linguagem | [ ] |
 | 3 | PHP Intermediário | [ ] |
 | 4 | Programação Orientada a Objetos (OOP) | [ ] |
