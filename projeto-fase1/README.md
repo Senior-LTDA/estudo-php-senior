@@ -1,5 +1,9 @@
-### Como rodar o projeto
+# Projeto Fase 1
 
-- Acesse a pasta cd estudo-php-senior/projeto-fase1
-- execute o comando no terminal php -S 0.0.0.0:8007
-- Acesse http://0.0.0.0:8007
+## Como executar
+
+Pré-requisito: PHP instalado.
+
+```sh
+cd projeto-fase1
+php -S localhost:8007
