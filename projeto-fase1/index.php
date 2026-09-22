@@ -1,16 +1,16 @@
 <?php
 
-$name = "Daniel";
+    $nome = 'Daniel';
 ?>
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pagina de apresentação</title>
+    <title>Página de apresentação</title>
 </head>
 <body>
-    <?= "Olá, meu nome é: {$name}"?>
+    <h1>Olá, meu nome é: <?= $nome ?></h1>
 </body>
 </html>
